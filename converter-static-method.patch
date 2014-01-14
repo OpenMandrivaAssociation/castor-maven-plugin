@@ -1,0 +1,11 @@
+--- src/main/java/org/codehaus/mojo/castor/ConvertDTD2XSDMojo.java.orig	2013-08-09 14:36:08.247763192 +0100
++++ src/main/java/org/codehaus/mojo/castor/ConvertDTD2XSDMojo.java	2013-08-09 14:36:24.444788382 +0100
+@@ -78,7 +78,7 @@
+         try
+         {
+             FileWriter writer = new FileWriter( dest );
+-            Converter.convertDTDtoSchema( new FileReader( source ), writer );
++            new Converter().convertDTDtoSchema( new FileReader( source ), writer );
+             writer.close();
+         }
+         catch ( Exception e )
