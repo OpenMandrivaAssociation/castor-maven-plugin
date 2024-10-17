@@ -5,7 +5,7 @@ Release:          2.0%{?dist}
 Summary:          Maven plugin for Castor XML's code generator
 License:          ASL 2.0
 
-URL:              http://mojo.codehaus.org/%{name}
+URL:              https://mojo.codehaus.org/%{name}
 
 Source0:          http://repo2.maven.org/maven2/org/codehaus/mojo/%{name}/%{version}/%{name}-%{version}-source-release.zip
 Source1:          LICENSE-2.0.txt
